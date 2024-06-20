@@ -1,0 +1,62 @@
+nav{
+  font-size: 12pt;
+  font-family: 'PT Sans', Arial, Sans-serif;
+  position: relative;
+}
+nav ul{
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  text-align: center; /* 메뉴 아이템들을 중앙 정렬합니다. */
+}
+nav li{
+  margin-right: 20px; /* 오른쪽에 여백을 추가합니다. */
+}
+nav li:last-child{
+  margin-right: 0; /* 마지막 항목은 오른쪽 여백을 없앱니다. */
+}
+nav a{
+  line-height: 50px;
+  height: 50px;
+  display: block; /* 각 링크를 블록 요소로 만듭니다. */
+  box-sizing: border-box;
+  padding: 0 15px; /* 좌우 패딩을 추가하여 시각적인 여백을 확보합니다. */
+}
+nav a:hover, nav a:active{
+  color: #FFD400; /* 호버 시 색상 변경 */
+}
+nav a#pull{
+  display: none;
+}
+html {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -webkit-tap-highlight-color:rgba(106, 12, 12, 0);
+}
+ul{
+  background-color: #000000;
+}
+li{
+  display: inline-block;
+}
+li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+.main-button {
+  display: block;
+  margin: 100px auto;
+  padding: 14px 35px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
